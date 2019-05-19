@@ -7,6 +7,8 @@ INCLUDE(ProjectVar.txt)
 
 ADD_SUBDIRECTORY(src)
 
+#set(CMAKE_VERBOSE_MAKEFILE ON)
+
 INSTALL(DIRECTORY include/mockcpp DESTINATION include
         PATTERN ".svn" EXCLUDE)
 
